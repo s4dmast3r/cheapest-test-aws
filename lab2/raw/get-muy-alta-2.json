@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "GET",
+    "users": 3000,
+    "ramp_up": 100.0,
+    "duration": 60.0,
+    "body": null,
+    "base_url": "http://localhost:3000",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "lab2/raw/get-muy-alta-2.csv"
+  },
+  "elapsed_s": 171.57271191600012,
+  "measurement_s": 160.0,
+  "peak_virtual_users": 3000,
+  "max_inflight": 3000,
+  "event_loop_lag_p99_ms": 4.064374999870779,
+  "overall": {
+    "requests": 42200,
+    "throughput_rps": 245.9598588186949,
+    "mean_ms": 8229.300351332702,
+    "p95_ms": 12456.313083000168,
+    "p99_ms": 12637.261791999663,
+    "error_pct": 0.0,
+    "status_counts": {
+      "200": 42200
+    }
+  },
+  "steady": {
+    "requests": 14921,
+    "throughput_rps": 248.68333333333334,
+    "mean_ms": 11990.795348491987,
+    "p95_ms": 12613.577832999908,
+    "p99_ms": 12675.208291000672,
+    "error_pct": 0.0,
+    "status_counts": {
+      "200": 14921
+    }
+  }
+}

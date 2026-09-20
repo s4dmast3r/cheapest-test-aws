@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><title>Configuración de JMeter para la campaña</title><style>body{font:18px system-ui;margin:36px;color:#172b42;background:#fff}h1{font-size:30px}pre{font:16px monospace;white-space:pre-wrap;background:#f3f5f7;padding:24px;line-height:1.5}small{color:#536175}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd3da;padding:10px;text-align:left}th{background:#e6edf4}</style><h1>Configuración de JMeter para la campaña</h1><p>Plan real: config/load_test.jmx · Apache JMeter 5.6.3</p><table><tr><th>Escenario</th><th>Hilos por endpoint</th><th>Ramp up</th><th>Loops</th><th>Repeticiones</th></tr><tr><td>Smoke</td><td>5</td><td>5 s</td><td>1</td><td>1</td></tr><tr><td>Baja</td><td>30</td><td>10 s</td><td>1</td><td>1</td></tr><tr><td>Media</td><td>100</td><td>20 s</td><td>1</td><td>1</td></tr><tr><td>Normal</td><td>450</td><td>50 s</td><td>1</td><td>5</td></tr></table><pre>GET /logistics/tenderos/productos-disponibles
+  tiendaId = bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+  zona = Zona Norte
+POST /logistics/pedidos
+  Content-Type: application/json
+  4 ítems · identificador con UUID por request
+Timeout conexión: 10 s · respuesta: 30 s
+Listeners: View Results Tree, Summary Report,
+Percentiles de Latencia (Aggregate Report), Graph Results</pre><small>Vista documental del plan; no es una captura de la ventana Java.</small>

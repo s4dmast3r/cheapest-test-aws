@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "scenario": "pico",
+  "rep": 1,
+  "users": 18000,
+  "ramp_up": 200,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/venv/bin/python",
+    "lab2/scripts/load_test.py",
+    "--endpoint",
+    "POST",
+    "--users",
+    "18000",
+    "--ramp-up",
+    "200",
+    "--duration",
+    "60",
+    "--body",
+    "lab2/config/large_order.json",
+    "--output",
+    "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-pico-1.csv"
+  ],
+  "duration": 60
+}

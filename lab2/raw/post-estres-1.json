@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "POST",
+    "users": 7500,
+    "ramp_up": 150.0,
+    "duration": 60.0,
+    "body": "lab2/config/large_order.json",
+    "base_url": "http://localhost:3000",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-estres-1.csv"
+  },
+  "elapsed_s": 226.10610583400012,
+  "measurement_s": 210.0,
+  "peak_virtual_users": 7500,
+  "max_inflight": 7500,
+  "event_loop_lag_p99_ms": 3.808499999649939,
+  "overall": {
+    "requests": 61046,
+    "throughput_rps": 269.988286140393,
+    "mean_ms": 17735.67570943977,
+    "p95_ms": 27946.88966600006,
+    "p99_ms": 28216.47883300102,
+    "error_pct": 0.0,
+    "status_counts": {
+      "201": 61046
+    }
+  },
+  "steady": {
+    "requests": 16494,
+    "throughput_rps": 274.9,
+    "mean_ms": 24912.742834946657,
+    "p95_ms": 27884.11145899954,
+    "p99_ms": 28177.657583999462,
+    "error_pct": 0.0,
+    "status_counts": {
+      "201": 16494
+    }
+  }
+}

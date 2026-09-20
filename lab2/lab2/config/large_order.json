@@ -1,0 +1,178 @@
+{
+  "identificador": "LAB2-template",
+  "tiendaId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  "fechaHoraCreacion": "2026-09-08T00:00:00.000Z",
+  "montoTotal": 6029.0,
+  "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+  "estado": "creado",
+  "items": [
+    {
+      "productoId": "004679df-12ca-4399-a039-8829e1e78d7e",
+      "cantidad": 2,
+      "precioUnitario": 64.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "00aca6cd-a3c0-4f73-a1bc-1ea2a2106362",
+      "cantidad": 3,
+      "precioUnitario": 97.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "00f141a6-5016-4c7a-8036-a69b1e79a7ed",
+      "cantidad": 4,
+      "precioUnitario": 51.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "00fb02ae-bc0b-4491-8f6d-ccd60e46fc83",
+      "cantidad": 5,
+      "precioUnitario": 81.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "01162a8b-2885-4404-927f-68e31fb2f99f",
+      "cantidad": 6,
+      "precioUnitario": 99.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "01538522-0e2a-433f-abec-75a52683041d",
+      "cantidad": 7,
+      "precioUnitario": 80.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0165c36b-cf8e-474e-a296-e4ca08f2b3bc",
+      "cantidad": 8,
+      "precioUnitario": 46.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "017c671e-81b2-418b-8a49-056bff9ca005",
+      "cantidad": 2,
+      "precioUnitario": 48.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "01f98f6c-6eb8-43b8-b4c4-aac1d8304b20",
+      "cantidad": 3,
+      "precioUnitario": 43.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0200d84f-5dd3-4c9f-9b6f-02cfe1dd9698",
+      "cantidad": 4,
+      "precioUnitario": 63.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "021819c0-0af0-4ac6-98a2-227b96c06464",
+      "cantidad": 5,
+      "precioUnitario": 77.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "02282438-88a9-43c9-8e69-3ef59e6e10cc",
+      "cantidad": 6,
+      "precioUnitario": 19.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "022ef928-7c93-409d-8ce4-e4ace304dd05",
+      "cantidad": 7,
+      "precioUnitario": 34.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0263fb65-1667-4bfe-92d0-c7b0a6dad6f1",
+      "cantidad": 8,
+      "precioUnitario": 88.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0298c604-2e3f-4467-9cbe-37e6c51dd0d2",
+      "cantidad": 2,
+      "precioUnitario": 95.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "02a12764-3ce2-45d4-8b7a-356ba7701e13",
+      "cantidad": 3,
+      "precioUnitario": 12.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "02ef6d62-fab3-44d7-ac93-09475a174dec",
+      "cantidad": 4,
+      "precioUnitario": 11.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0309ac75-521d-4fee-a0da-d18da5408132",
+      "cantidad": 5,
+      "precioUnitario": 71.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "032c1e21-6025-4ffa-8fb1-2effe8940627",
+      "cantidad": 6,
+      "precioUnitario": 34.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "0337af53-0480-42d4-a8ad-4f0df524c0c9",
+      "cantidad": 7,
+      "precioUnitario": 19.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "03638ffd-77a7-4b55-9b64-fd4820fc8c17",
+      "cantidad": 8,
+      "precioUnitario": 18.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "03727bd4-7650-4676-9e6d-8a5324c8ea37",
+      "cantidad": 2,
+      "precioUnitario": 59.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "037be801-7202-441d-80d8-cd4d194301d3",
+      "cantidad": 3,
+      "precioUnitario": 27.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    },
+    {
+      "productoId": "03b1db7d-9fec-4c9a-a248-cbeea03f03c2",
+      "cantidad": 4,
+      "precioUnitario": 64.0,
+      "descuento": 0,
+      "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc"
+    }
+  ]
+}

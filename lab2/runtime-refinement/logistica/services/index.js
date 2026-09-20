@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TenderoService = exports.PromocionService = exports.ProductoService = exports.PedidoService = exports.NotaCreditoService = exports.DisponibilidadZonaService = exports.DespachoService = exports.CatalogoService = exports.CatalogoProductoService = void 0;
+var catalogo_producto_service_1 = require("./catalogo-producto.service");
+Object.defineProperty(exports, "CatalogoProductoService", { enumerable: true, get: function () { return catalogo_producto_service_1.CatalogoProductoService; } });
+var catalogo_service_1 = require("./catalogo.service");
+Object.defineProperty(exports, "CatalogoService", { enumerable: true, get: function () { return catalogo_service_1.CatalogoService; } });
+var despacho_service_1 = require("./despacho.service");
+Object.defineProperty(exports, "DespachoService", { enumerable: true, get: function () { return despacho_service_1.DespachoService; } });
+var disponibilidad_zona_service_1 = require("./disponibilidad-zona.service");
+Object.defineProperty(exports, "DisponibilidadZonaService", { enumerable: true, get: function () { return disponibilidad_zona_service_1.DisponibilidadZonaService; } });
+var nota_credito_service_1 = require("./nota-credito.service");
+Object.defineProperty(exports, "NotaCreditoService", { enumerable: true, get: function () { return nota_credito_service_1.NotaCreditoService; } });
+var pedido_service_1 = require("./pedido.service");
+Object.defineProperty(exports, "PedidoService", { enumerable: true, get: function () { return pedido_service_1.PedidoService; } });
+var producto_service_1 = require("./producto.service");
+Object.defineProperty(exports, "ProductoService", { enumerable: true, get: function () { return producto_service_1.ProductoService; } });
+var promocion_service_1 = require("./promocion.service");
+Object.defineProperty(exports, "PromocionService", { enumerable: true, get: function () { return promocion_service_1.PromocionService; } });
+var tendero_service_1 = require("./tendero.service");
+Object.defineProperty(exports, "TenderoService", { enumerable: true, get: function () { return tendero_service_1.TenderoService; } });
+//# sourceMappingURL=index.js.map

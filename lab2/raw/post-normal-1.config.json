@@ -1,0 +1,20 @@
+{
+  "method": "POST",
+  "scenario": "normal",
+  "rep": 1,
+  "users": 450,
+  "ramp_up": 50,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/apache-jmeter-5.6.3/bin/jmeter",
+    "-n",
+    "-t",
+    "lab2/config/load_test.jmx",
+    "-JPOST_threads=450",
+    "-Jramp=50",
+    "-l",
+    "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-normal-1.csv",
+    "-j",
+    "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-normal-1.jmeter.log"
+  ],
+  "loops": 1
+}

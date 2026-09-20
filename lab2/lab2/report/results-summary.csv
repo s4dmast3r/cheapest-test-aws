@@ -1,0 +1,13 @@
+run,endpoint,scenario,rep,tool,users,ramp_up,duration,requests,throughput_rps,mean_ms,p95_ms,p99_ms,error_pct,max_inflight,steady_p99_ms,steady_error_pct
+get-alta-1,GET,alta,1,Python,1500,75,60,37490,266.534,4013.593,7280.369,9609.233,0.0,1500,9664.52,0.0
+get-alta-2,GET,alta,2,Python,1500,75,60,36460,258.979,4130.611,5908.869,5994.304,0.0,1500,6006.217,0.0
+get-alta-3,GET,alta,3,Python,1500,75,60,35662,253.013,4226.478,6158.742,6224.458,0.0,1500,6240.757,0.0
+get-baja-1,GET,baja,1,JMeter,30,10,,30,3.111,42.767,49.0,54.0,0.0,1,0,0
+get-media-1,GET,media,1,JMeter,100,20,,100,5.051,41.57,45.0,50.0,0.0,1,0,0
+get-muy-alta-1,GET,muy-alta,1,Python,3000,100,60,42170,244.517,8269.252,13206.427,13534.685,0.0,3000,13557.243,0.0
+get-normal-1,GET,normal,1,JMeter,450,50,,450,9.031,37.909,43.0,46.0,0.0,1,0,0
+get-normal-2,GET,normal,2,JMeter,450,50,,450,9.034,38.191,43.0,45.0,0.0,1,0,0
+get-normal-3,GET,normal,3,JMeter,450,50,,450,9.032,36.909,43.0,44.0,0.0,1,0,0
+get-normal-4,GET,normal,4,JMeter,450,50,,450,9.031,37.367,42.0,45.0,0.0,1,0,0
+get-normal-5,GET,normal,5,JMeter,450,50,,450,9.031,37.636,42.0,45.0,0.0,1,0,0
+get-smoke-1,GET,smoke,1,JMeter,5,5,,5,1.25,49.6,69.0,69.0,0.0,1,0,0

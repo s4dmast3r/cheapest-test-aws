@@ -1,0 +1,20 @@
+{
+  "method": "GET",
+  "scenario": "media",
+  "rep": 1,
+  "users": 100,
+  "ramp_up": 20,
+  "loops": 1,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/apache-jmeter-5.6.3/bin/jmeter",
+    "-n",
+    "-t",
+    "lab2/config/load_test.jmx",
+    "-JGET_threads=100",
+    "-Jramp=20",
+    "-l",
+    "lab2/raw/get-media-1.csv",
+    "-j",
+    "lab2/raw/get-media-1.jmeter.log"
+  ]
+}

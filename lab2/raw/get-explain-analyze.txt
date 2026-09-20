@@ -1,0 +1,76 @@
+                                                                                      QUERY PLAN                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Hash Join  (cost=5432.73..5458.83 rows=135 width=129) (actual time=32.503..32.711 rows=4 loops=1)
+   Hash Cond: (dz."productoId" = ip."productoId")
+   Buffers: shared hit=3238
+   ->  HashAggregate  (cost=692.12..710.12 rows=1800 width=16) (actual time=7.902..8.017 rows=1800 loops=1)
+         Group Key: dz."productoId"
+         Batches: 1  Memory Usage: 193kB
+         Buffers: shared hit=302
+         ->  Hash Join  (cost=4.81..647.12 rows=17998 width=16) (actual time=0.071..5.378 rows=17998 loops=1)
+               Hash Cond: (dz."catalogoId" = cat.id)
+               Buffers: shared hit=302
+               ->  Seq Scan on disponibilidad_zona dz  (cost=0.00..581.25 rows=22498 width=32) (actual time=0.008..2.128 rows=22500 loops=1)
+                     Filter: ("cantidadDisponible" > 0)
+                     Buffers: shared hit=300
+               ->  Hash  (cost=3.56..3.56 rows=100 width=16) (actual time=0.037..0.038 rows=100 loops=1)
+                     Buckets: 1024  Batches: 1  Memory Usage: 13kB
+                     Buffers: shared hit=2
+                     ->  Seq Scan on catalogos cat  (cost=0.00..3.56 rows=100 width=16) (actual time=0.004..0.020 rows=100 loops=1)
+                           Filter: ((zona)::text = 'Zona Norte'::text)
+                           Rows Removed by Filter: 25
+                           Buffers: shared hit=2
+   ->  Hash  (cost=4738.93..4738.93 rows=135 width=161) (actual time=24.567..24.572 rows=4 loops=1)
+         Buckets: 1024  Batches: 1  Memory Usage: 9kB
+         Buffers: shared hit=2936
+         ->  Hash Join  (cost=4712.98..4738.93 rows=135 width=161) (actual time=24.508..24.528 rows=4 loops=1)
+               Hash Cond: (ip."productoId" = producto.id)
+               Buffers: shared hit=2936
+               ->  HashAggregate  (cost=4431.60..4449.49 rows=1789 width=16) (actual time=23.348..23.358 rows=25 loops=1)
+                     Group Key: ip."productoId"
+                     Batches: 1  Memory Usage: 73kB
+                     Buffers: shared hit=2587
+                     ->  Hash Join  (cost=532.99..4414.82 rows=6713 width=16) (actual time=1.016..22.705 rows=6715 loops=1)
+                           Hash Cond: (ip."pedidoId" = p.id)
+                           Buffers: shared hit=2587
+                           ->  Seq Scan on items_pedido ip  (cost=0.00..3551.00 rows=126000 width=32) (actual time=0.006..10.317 rows=126000 loops=1)
+                                 Buffers: shared hit=2291
+                           ->  Hash  (cost=521.00..521.00 rows=959 width=16) (actual time=1.002..1.003 rows=959 loops=1)
+                                 Buckets: 1024  Batches: 1  Memory Usage: 53kB
+                                 Buffers: shared hit=296
+                                 ->  Seq Scan on pedidos p  (cost=0.00..521.00 rows=959 width=16) (actual time=0.002..0.887 rows=959 loops=1)
+                                       Filter: ("tiendaId" = 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb'::uuid)
+                                       Rows Removed by Filter: 17041
+                                       Buffers: shared hit=296
+               ->  Hash  (cost=279.68..279.68 rows=136 width=145) (actual time=1.134..1.136 rows=84 loops=1)
+                     Buckets: 1024  Batches: 1  Memory Usage: 24kB
+                     Buffers: shared hit=349
+                     ->  Nested Loop  (cost=223.68..279.68 rows=136 width=145) (actual time=0.986..1.108 rows=84 loops=1)
+                           Buffers: shared hit=349
+                           ->  HashAggregate  (cost=223.40..224.76 rows=136 width=16) (actual time=0.964..0.975 rows=84 loops=1)
+                                 Group Key: promo."productoId"
+                                 Batches: 1  Memory Usage: 40kB
+                                 Buffers: shared hit=97
+                                 ->  Hash Join  (cost=81.44..223.06 rows=136 width=16) (actual time=0.241..0.939 rows=168 loops=1)
+                                       Hash Cond: (promo.id = pt."promocionId")
+                                       Buffers: shared hit=97
+                                       ->  Seq Scan on promociones promo  (cost=0.00..135.00 rows=2520 width=32) (actual time=0.010..0.517 rows=2520 loops=1)
+                                             Filter: ((inicio <= now()) AND (fin >= now()))
+                                             Rows Removed by Filter: 1080
+                                             Buffers: shared hit=63
+                                       ->  Hash  (cost=79.01..79.01 rows=194 width=16) (actual time=0.216..0.217 rows=194 loops=1)
+                                             Buckets: 1024  Batches: 1  Memory Usage: 18kB
+                                             Buffers: shared hit=34
+                                             ->  Seq Scan on promocion_tiendas pt  (cost=0.00..79.01 rows=194 width=16) (actual time=0.003..0.190 rows=194 loops=1)
+                                                   Filter: ("tiendaId" = 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb'::uuid)
+                                                   Rows Removed by Filter: 3407
+                                                   Buffers: shared hit=34
+                           ->  Index Scan using "PK_04f604609a0949a7f3b43400766" on productos producto  (cost=0.28..0.41 rows=1 width=129) (actual time=0.001..0.001 rows=1 loops=84)
+                                 Index Cond: (id = promo."productoId")
+                                 Buffers: shared hit=252
+ Planning:
+   Buffers: shared hit=478
+ Planning Time: 3.334 ms
+ Execution Time: 33.033 ms
+(72 rows)
+

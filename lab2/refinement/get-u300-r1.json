@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "GET",
+    "users": 300,
+    "ramp_up": 30.0,
+    "duration": 60.0,
+    "body": null,
+    "base_url": "http://localhost:3002",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/refinement/get-u300-r1.csv"
+  },
+  "elapsed_s": 91.28870141599873,
+  "measurement_s": 90.0,
+  "peak_virtual_users": 300,
+  "max_inflight": 300,
+  "event_loop_lag_p99_ms": 6.255917000089539,
+  "overall": {
+    "requests": 19768,
+    "throughput_rps": 216.5437747867402,
+    "mean_ms": 1148.636398334635,
+    "p95_ms": 1495.7352499986882,
+    "p99_ms": 1716.7746660015837,
+    "error_pct": 0.0,
+    "status_counts": {
+      "200": 19768
+    }
+  },
+  "steady": {
+    "requests": 13794,
+    "throughput_rps": 229.9,
+    "mean_ms": 1299.5804829285914,
+    "p95_ms": 1466.444457999387,
+    "p99_ms": 1576.0397500016552,
+    "error_pct": 0.0,
+    "status_counts": {
+      "200": 13794
+    }
+  }
+}

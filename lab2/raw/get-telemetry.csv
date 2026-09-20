@@ -1,0 +1,105 @@
+timestamp,postgres_stats,app_processes,db_activity
+2026-09-08T00:53:07.829199+00:00,"{""BlockIO"":""7.33MB / 298MB"",""CPUPerc"":""763.24%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""55.7MB / 5.11MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  45.1 169840   07:04","active:running:9
+idle:Client:2"
+2026-09-08T00:53:19.109853+00:00,"{""BlockIO"":""7.33MB / 300MB"",""CPUPerc"":""763.16%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""61.4MB / 10.7MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  40.1 191760   07:16","active:running:10
+idle:Client:1"
+2026-09-08T00:53:30.328554+00:00,"{""BlockIO"":""7.33MB / 301MB"",""CPUPerc"":""767.83%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.3MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""66.9MB / 16.2MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  37.2 226800   07:27",active:running:11
+2026-09-08T00:53:41.563303+00:00,"{""BlockIO"":""7.33MB / 304MB"",""CPUPerc"":""812.53%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.8MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""72.3MB / 21.6MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.2 268992   07:38","active:running:7
+idle:Client:4"
+2026-09-08T00:53:53.127114+00:00,"{""BlockIO"":""7.33MB / 306MB"",""CPUPerc"":""789.34%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""77.5MB / 26.8MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  41.3 298384   07:50","active:running:10
+idle:Client:1"
+2026-09-08T00:54:04.365134+00:00,"{""BlockIO"":""7.33MB / 308MB"",""CPUPerc"":""782.31%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.5MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""82.6MB / 31.9MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.7 308912   08:01","active:running:9
+idle:Client:2"
+2026-09-08T00:54:15.618023+00:00,"{""BlockIO"":""7.33MB / 310MB"",""CPUPerc"":""789.66%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.1MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""88MB / 37.2MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.5 325264   08:13","active:running:10
+idle:Client:1"
+2026-09-08T00:54:27.765504+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""796.49%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.4MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""91.9MB / 41.1MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  29.5 322384   08:24","active:running:9
+idle:Client:2"
+2026-09-08T00:54:39.012612+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""2330.77%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.1MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""95.6MB / 44.8MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527   3.7 275536   08:36","active:running:9
+idle:Client:2"
+2026-09-08T00:54:50.791154+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""777.82%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.7MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""99.4MB / 48.6MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.2 264272   08:47","active:running:9
+idle:Client:2"
+2026-09-08T00:55:02.052989+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""825.40%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""104MB / 53.4MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.1 288800   08:59","active:running:9
+idle:Client:2"
+2026-09-08T00:55:13.353831+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""792.78%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.7MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""109MB / 58.1MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.1 347072   09:10",active:running:11
+2026-09-08T00:55:24.566922+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""782.73%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.8MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""114MB / 62.8MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  14.7 361504   09:21",active:running:11
+2026-09-08T00:55:35.798202+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""790.98%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.3MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""116MB / 65.5MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.8 299024   09:33","active:running:10
+idle:Client:1"
+2026-09-08T00:55:47.740876+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""788.71%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""122MB / 70.6MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.8 197408   09:45","active:Client:2
+active:running:6
+idle:Client:3"
+2026-09-08T00:55:59.858614+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""795.30%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.7MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""126MB / 75.3MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.3 239200   09:56",active:running:11
+2026-09-08T00:56:11.119392+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""782.73%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.4MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""131MB / 80MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  29.5 265024   10:08","active:running:9
+idle:Client:2"
+2026-09-08T00:56:22.373799+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""799.42%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.9MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""136MB / 84.6MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.4 270784   10:19",active:running:11
+2026-09-08T00:56:33.616990+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""770.16%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.6MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""140MB / 89.2MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.7 304912   10:30",active:running:11
+2026-09-08T00:56:44.926910+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""766.50%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.8MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""145MB / 93.8MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  28.4 292384   10:42",active:running:11
+2026-09-08T00:56:56.209624+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""790.60%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""150MB / 98.5MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.0 328960   10:53",active:running:11
+2026-09-08T00:57:07.702198+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""776.36%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.5MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""154MB / 103MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.9 321360   11:04",active:running:11
+2026-09-08T00:57:18.924807+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""780.25%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.5MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""159MB / 108MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.6 321360   11:15",active:running:11
+2026-09-08T00:57:30.229072+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""782.83%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.8MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""163MB / 112MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.1 345904   11:27","active:running:9
+idle:Client:2"
+2026-09-08T00:57:41.491244+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""808.56%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.9MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""168MB / 117MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  28.2 362624   11:38",active:running:11
+2026-09-08T00:57:52.698705+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""665.55%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.40%"",""MemUsage"":""111.4MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""172MB / 121MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  14.0 324768   11:49","active:running:1
+idle:Client:10"
+2026-09-08T00:58:03.801152+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""780.42%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115.1MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""175MB / 124MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  29.1 324784   12:00","active:running:9
+idle:Client:2"
+2026-09-08T00:58:15.000404+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""761.07%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.9MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""180MB / 128MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.0 210352   12:12","active:running:10
+idle:Client:1"
+2026-09-08T00:58:26.228362+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""772.52%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115.3MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""184MB / 133MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  28.8 243888   12:23","active:running:9
+idle:Client:2"
+2026-09-08T00:58:37.795261+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""776.76%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.7MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""189MB / 138MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  29.1 250448   12:35","active:running:10
+idle:Client:1"
+2026-09-08T00:58:49.711120+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""765.17%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""194MB / 143MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  29.5 275328   12:46","active:running:9
+idle:Client:2"
+2026-09-08T00:59:00.991021+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""790.41%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.4MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""198MB / 147MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  26.2 293008   12:58",active:running:11
+2026-09-08T00:59:12.251533+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""777.39%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.8MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""203MB / 151MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.8 293008   13:09",active:running:11
+2026-09-08T00:59:23.489201+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""787.00%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""207MB / 156MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  28.9 324944   13:20","active:running:10
+idle:Client:1"
+2026-09-08T00:59:34.702818+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""766.67%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.6MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""212MB / 160MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  27.1 337328   13:31","active:running:7
+idle:Client:4"
+2026-09-08T00:59:45.954917+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""772.67%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.43%"",""MemUsage"":""113.5MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""217MB / 165MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.2 318896   13:43",active:running:11
+2026-09-08T00:59:57.854724+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""789.85%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.44%"",""MemUsage"":""114.4MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""221MB / 170MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  25.3 342128   13:55","active:running:10
+idle:Client:1"
+2026-09-08T01:00:09.749572+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""777.53%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""114.9MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""226MB / 174MB"",""PIDs"":""16""}","PID  %CPU    RSS ELAPSED
+16527  23.2 320384   14:06","active:running:10
+idle:Client:1"
+2026-09-08T01:00:21.016224+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""5.05%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.08%"",""MemUsage"":""86.05MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""229MB / 178MB"",""PIDs"":""6""}","Command '['ps', '-p', '16527', '-o', 'pid,pcpu,rss,etime']' returned non-zero exit status 1.",active:running:1
+2026-09-08T01:00:32.178086+00:00,"{""BlockIO"":""7.33MB / 312MB"",""CPUPerc"":""782.91%"",""Container"":""cheapest-postgres"",""ID"":""589abc195778"",""MemPerc"":""1.45%"",""MemUsage"":""115.2MiB / 7.748GiB"",""Name"":""cheapest-postgres"",""NetIO"":""233MB / 194MB"",""PIDs"":""16""}","Command '['ps', '-p', '16527', '-o', 'pid,pcpu,rss,etime']' returned non-zero exit status 1.","active:running:10
+idle:Client:1"

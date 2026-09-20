@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UpdateRegistroCompraDto = exports.RegistroCompraResponseDto = exports.QueryRegistroCompraDto = exports.CreateRegistroCompraDto = exports.UpdateRegistroVentaDto = exports.RegistroVentaResponseDto = exports.QueryRegistroVentaDto = exports.CreateRegistroVentaDto = exports.UpdateItemInventarioDto = exports.QueryItemInventarioDto = exports.ItemInventarioResponseDto = exports.CreateItemInventarioDto = void 0;
+var create_item_inventario_dto_1 = require("./item-inventario/create-item-inventario.dto");
+Object.defineProperty(exports, "CreateItemInventarioDto", { enumerable: true, get: function () { return create_item_inventario_dto_1.CreateItemInventarioDto; } });
+var item_inventario_response_dto_1 = require("./item-inventario/item-inventario-response.dto");
+Object.defineProperty(exports, "ItemInventarioResponseDto", { enumerable: true, get: function () { return item_inventario_response_dto_1.ItemInventarioResponseDto; } });
+var query_item_inventario_dto_1 = require("./item-inventario/query-item-inventario.dto");
+Object.defineProperty(exports, "QueryItemInventarioDto", { enumerable: true, get: function () { return query_item_inventario_dto_1.QueryItemInventarioDto; } });
+var update_item_inventario_dto_1 = require("./item-inventario/update-item-inventario.dto");
+Object.defineProperty(exports, "UpdateItemInventarioDto", { enumerable: true, get: function () { return update_item_inventario_dto_1.UpdateItemInventarioDto; } });
+var create_registro_venta_dto_1 = require("./registro-venta/create-registro-venta.dto");
+Object.defineProperty(exports, "CreateRegistroVentaDto", { enumerable: true, get: function () { return create_registro_venta_dto_1.CreateRegistroVentaDto; } });
+var query_registro_venta_dto_1 = require("./registro-venta/query-registro-venta.dto");
+Object.defineProperty(exports, "QueryRegistroVentaDto", { enumerable: true, get: function () { return query_registro_venta_dto_1.QueryRegistroVentaDto; } });
+var registro_venta_response_dto_1 = require("./registro-venta/registro-venta-response.dto");
+Object.defineProperty(exports, "RegistroVentaResponseDto", { enumerable: true, get: function () { return registro_venta_response_dto_1.RegistroVentaResponseDto; } });
+var update_registro_venta_dto_1 = require("./registro-venta/update-registro-venta.dto");
+Object.defineProperty(exports, "UpdateRegistroVentaDto", { enumerable: true, get: function () { return update_registro_venta_dto_1.UpdateRegistroVentaDto; } });
+var create_registro_compra_dto_1 = require("./registro-compra/create-registro-compra.dto");
+Object.defineProperty(exports, "CreateRegistroCompraDto", { enumerable: true, get: function () { return create_registro_compra_dto_1.CreateRegistroCompraDto; } });
+var query_registro_compra_dto_1 = require("./registro-compra/query-registro-compra.dto");
+Object.defineProperty(exports, "QueryRegistroCompraDto", { enumerable: true, get: function () { return query_registro_compra_dto_1.QueryRegistroCompraDto; } });
+var registro_compra_response_dto_1 = require("./registro-compra/registro-compra-response.dto");
+Object.defineProperty(exports, "RegistroCompraResponseDto", { enumerable: true, get: function () { return registro_compra_response_dto_1.RegistroCompraResponseDto; } });
+var update_registro_compra_dto_1 = require("./registro-compra/update-registro-compra.dto");
+Object.defineProperty(exports, "UpdateRegistroCompraDto", { enumerable: true, get: function () { return update_registro_compra_dto_1.UpdateRegistroCompraDto; } });
+//# sourceMappingURL=index.js.map

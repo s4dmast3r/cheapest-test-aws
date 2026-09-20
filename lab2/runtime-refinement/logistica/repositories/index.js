@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PromocionRepository = exports.ProductoRepository = exports.PedidoRepository = exports.NotaCreditoRepository = exports.DisponibilidadZonaRepository = exports.DespachoRepository = exports.CatalogoRepository = exports.CatalogoProductoRepository = void 0;
+var catalogo_producto_repository_1 = require("./catalogo-producto.repository");
+Object.defineProperty(exports, "CatalogoProductoRepository", { enumerable: true, get: function () { return catalogo_producto_repository_1.CatalogoProductoRepository; } });
+var catalogo_repository_1 = require("./catalogo.repository");
+Object.defineProperty(exports, "CatalogoRepository", { enumerable: true, get: function () { return catalogo_repository_1.CatalogoRepository; } });
+var despacho_repository_1 = require("./despacho.repository");
+Object.defineProperty(exports, "DespachoRepository", { enumerable: true, get: function () { return despacho_repository_1.DespachoRepository; } });
+var disponibilidad_zona_repository_1 = require("./disponibilidad-zona.repository");
+Object.defineProperty(exports, "DisponibilidadZonaRepository", { enumerable: true, get: function () { return disponibilidad_zona_repository_1.DisponibilidadZonaRepository; } });
+var nota_credito_repository_1 = require("./nota-credito.repository");
+Object.defineProperty(exports, "NotaCreditoRepository", { enumerable: true, get: function () { return nota_credito_repository_1.NotaCreditoRepository; } });
+var pedido_repository_1 = require("./pedido.repository");
+Object.defineProperty(exports, "PedidoRepository", { enumerable: true, get: function () { return pedido_repository_1.PedidoRepository; } });
+var producto_repository_1 = require("./producto.repository");
+Object.defineProperty(exports, "ProductoRepository", { enumerable: true, get: function () { return producto_repository_1.ProductoRepository; } });
+var promocion_repository_1 = require("./promocion.repository");
+Object.defineProperty(exports, "PromocionRepository", { enumerable: true, get: function () { return promocion_repository_1.PromocionRepository; } });
+//# sourceMappingURL=index.js.map

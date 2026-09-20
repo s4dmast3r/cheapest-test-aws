@@ -1,0 +1,22 @@
+{
+  "scenario": "alta",
+  "rep": 1,
+  "users": 1500,
+  "ramp_up": 75,
+  "duration": 60,
+  "method": "GET",
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/venv/bin/python",
+    "lab2/scripts/load_test.py",
+    "--endpoint",
+    "GET",
+    "--users",
+    "1500",
+    "--ramp-up",
+    "75",
+    "--duration",
+    "60",
+    "--output",
+    "lab2/raw/get-alta-1.csv"
+  ]
+}

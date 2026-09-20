@@ -1,0 +1,16 @@
+[
+  "/Users/macbookair/.cache/lab2-tools/venv/bin/python",
+  "lab2/scripts/load_test.py",
+  "--endpoint",
+  "GET",
+  "--users",
+  "300",
+  "--ramp-up",
+  "30",
+  "--duration",
+  "60",
+  "--base-url",
+  "http://localhost:3002",
+  "--output",
+  "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/refinement/get-u300-r2.csv"
+]

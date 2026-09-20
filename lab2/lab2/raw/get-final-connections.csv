@@ -1,0 +1,7 @@
+state,wait_event_type,wait_event,count
+,Activity,WalWriterMain,1
+,Activity,LogicalLauncherMain,1
+,Activity,BgWriterMain,1
+,Activity,CheckpointerMain,1
+active,,,1
+,Activity,AutoVacuumMain,1

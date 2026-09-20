@@ -1,0 +1,20 @@
+{
+  "method": "GET",
+  "scenario": "normal",
+  "rep": 1,
+  "users": 450,
+  "ramp_up": 50,
+  "loops": 1,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/apache-jmeter-5.6.3/bin/jmeter",
+    "-n",
+    "-t",
+    "lab2/config/load_test.jmx",
+    "-JGET_threads=450",
+    "-Jramp=50",
+    "-l",
+    "lab2/raw/get-normal-1.csv",
+    "-j",
+    "lab2/raw/get-normal-1.jmeter.log"
+  ]
+}

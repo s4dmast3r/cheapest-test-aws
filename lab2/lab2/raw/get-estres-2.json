@@ -1,0 +1,43 @@
+{
+  "config": {
+    "endpoint": "GET",
+    "users": 7500,
+    "ramp_up": 150.0,
+    "duration": 60.0,
+    "body": null,
+    "base_url": "http://localhost:3000",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "lab2/raw/get-estres-2.csv"
+  },
+  "elapsed_s": 238.76339712499976,
+  "measurement_s": 210.0,
+  "peak_virtual_users": 7500,
+  "max_inflight": 7500,
+  "event_loop_lag_p99_ms": 3.314040999612189,
+  "overall": {
+    "requests": 61452,
+    "throughput_rps": 257.37613361158554,
+    "mean_ms": 18221.134199713335,
+    "p95_ms": 29855.19050000039,
+    "p99_ms": 30241.907584000728,
+    "error_pct": 0.6997331250406822,
+    "status_counts": {
+      "200": 61022,
+      "0": 430
+    }
+  },
+  "steady": {
+    "requests": 15173,
+    "throughput_rps": 252.88333333333333,
+    "mean_ms": 29066.622031366107,
+    "p95_ms": 30011.417749999964,
+    "p99_ms": 30215.319500000078,
+    "error_pct": 0.9358729321821657,
+    "status_counts": {
+      "0": 142,
+      "200": 15031
+    }
+  }
+}

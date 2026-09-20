@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1788828445805,69,GET Cheapest,200,OK,GET Request 1-1,text,true,,1705,279,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,66,0,10
+1788828446765,47,GET Cheapest,200,OK,GET Request 1-2,text,true,,1705,279,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,47,0,2
+1788828447764,41,GET Cheapest,200,OK,GET Request 1-3,text,true,,1705,279,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,41,0,1
+1788828448760,46,GET Cheapest,200,OK,GET Request 1-4,text,true,,1705,279,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,46,0,1
+1788828449760,45,GET Cheapest,200,OK,GET Request 1-5,text,true,,1705,279,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,45,0,1

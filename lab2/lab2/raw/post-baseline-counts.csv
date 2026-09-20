@@ -1,0 +1,17 @@
+relname,n_live_tup
+catalogos,125
+catalogos_productos_productos,22500
+despachos,3375
+disponibilidad_zona,22500
+items_inventario,4500
+items_pedido,31500
+items_venta,18000
+notas_credito,135
+pedidos,4500
+productos,1800
+productos_externos,240
+promocion_tiendas,5401
+promociones,5400
+registros_compra_producto_tienda,9000
+registros_venta_producto_tienda,18000
+ventas,6000

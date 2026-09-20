@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "scenario": "estres",
+  "rep": 2,
+  "users": 7500,
+  "ramp_up": 150,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/venv/bin/python",
+    "lab2/scripts/load_test.py",
+    "--endpoint",
+    "POST",
+    "--users",
+    "7500",
+    "--ramp-up",
+    "150",
+    "--duration",
+    "60",
+    "--body",
+    "lab2/config/large_order.json",
+    "--output",
+    "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-estres-2.csv"
+  ],
+  "duration": 60
+}

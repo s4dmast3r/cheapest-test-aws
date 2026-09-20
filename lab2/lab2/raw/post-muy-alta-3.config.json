@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "scenario": "muy-alta",
+  "rep": 3,
+  "users": 3000,
+  "ramp_up": 100,
+  "command": [
+    "/Users/macbookair/.cache/lab2-tools/venv/bin/python",
+    "lab2/scripts/load_test.py",
+    "--endpoint",
+    "POST",
+    "--users",
+    "3000",
+    "--ramp-up",
+    "100",
+    "--duration",
+    "60",
+    "--body",
+    "lab2/config/large_order.json",
+    "--output",
+    "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/raw/post-muy-alta-3.csv"
+  ],
+  "duration": 60
+}

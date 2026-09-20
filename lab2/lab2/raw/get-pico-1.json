@@ -1,0 +1,42 @@
+{
+  "config": {
+    "endpoint": "GET",
+    "users": 18000,
+    "ramp_up": 200.0,
+    "duration": 60.0,
+    "body": null,
+    "base_url": "http://localhost:3000",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "lab2/raw/get-pico-1.csv"
+  },
+  "elapsed_s": 289.46314425000037,
+  "measurement_s": 260.0,
+  "peak_virtual_users": 18000,
+  "max_inflight": 18000,
+  "event_loop_lag_p99_ms": 4513.921332999416,
+  "overall": {
+    "requests": 114467,
+    "throughput_rps": 395.4458530345348,
+    "mean_ms": 27513.946267517014,
+    "p95_ms": 35179.1928749999,
+    "p99_ms": 38082.88033299959,
+    "error_pct": 73.85796779857951,
+    "status_counts": {
+      "200": 29924,
+      "0": 84543
+    }
+  },
+  "steady": {
+    "requests": 31427,
+    "throughput_rps": 523.7833333333333,
+    "mean_ms": 32779.35730497853,
+    "p95_ms": 37772.621749999416,
+    "p99_ms": 40046.20479100049,
+    "error_pct": 100.0,
+    "status_counts": {
+      "0": 31427
+    }
+  }
+}

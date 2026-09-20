@@ -1,0 +1,23 @@
+# Escenario post-asr2; cantidades objetivo incluyendo seed base.
+load:
+  tiendas: 75
+  zonas: 5
+  productos: 1800
+  catalogos: 125
+  catalogos_productos: 22500
+  promociones: 5400
+  pedidos: 4500
+  items_pedido: 31500
+  despachos: 3375
+  disponibilidad_zona: 22500
+  notas_credito: 135
+  items_inventario: 4500
+  registros_compra_producto_tienda: 9000
+  registros_venta_producto_tienda: 18000
+  productos_externos: 240
+  ventas: 6000
+  items_venta: 18000
+  distribucion:
+    tipo: pareto
+    peso_cabeza: 0.9
+    fraccion_cabeza: 0.2

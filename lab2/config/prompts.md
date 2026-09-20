@@ -1,0 +1,14 @@
+# Registro del uso de IA
+
+## Instrucción recibida
+Continuing from [Entender laboratorio 2](chatgpt-conversation://6a9f4ee0-2dbc-83e9-bc7d-79a727a3b6d2): Take over the user's Lab 2 load-testing workflow for the Cheapest monolith from their local repository. They already checked out `load_tests` and created their own working branch. Use the uploaded `lab_2_pruebas_carga.md` and `lab_2_warmup.md` as the authoritative instructions. First verify the current branch and repo state, inspect `src/datasources/load-seed.yaml` and `src/datasources/database-seeder.service.ts`, then design realistic non-uniform seed configurations for GET/ASR1 and POST/ASR2. Next bring up PostgreSQL and NestJS, verify `/health`, execute the required JMeter scenarios up to 450 threads and Python load-test scenarios above 450 threads, preserve raw CSVs/logs and take screenshots of configurations and results. Inspect the real endpoint code (`producto.repository.ts`, `pedido.service.ts`, `pedido.repository.ts`, and database provider config) to analyze bottlenecks and answer Questions 1–4. Organize evidence and produce a polished DOCX report containing result tables, screenshots, prompts used, answers to Questions 1–4, point-of-inflexion analysis, bottleneck analysis, data-distribution rationale, and architecture recommendations. Keep seed variants, script, CSVs, graphs, and evidence organized for the final ZIP.
+
+## Especificación aplicada por el agente al generar el script
+Generar un cliente Python async con una sola dependencia aiohttp. Permitir endpoint GET o POST, users, ramp-up, duration, body, timeout y output. Cada usuario comienza escalonadamente dentro del ramp-up y repite hasta terminar una meseta adicional de 60 segundos. POST debe usar más de 20 ítems y un identificador único por solicitud. Registrar timestamp UTC, método, endpoint, código HTTP, latencia, error, fase, usuario y bytes. Exportar CSV por corrida y JSON con conteo, promedio, p95, p99, throughput y error. Incluir errores HTTP, timeouts y conexiones. Medir retraso del event loop y concurrencia observada para detectar límites del generador. No confundir incorporación de usuarios con requests/s. Validar el registro de errores contra un servidor local controlado.
+
+Esta especificación documenta las decisiones de generación del asistente en esta conversación; no se presenta como una conversación adicional con Copilot. Las mediciones se obtienen de ejecuciones reales, no de respuestas del modelo.
+
+## Instrucción de revisión
+Quiero que revises todo de nuevo, ya que ese informe le hace falta lo que explico en el .md
+
+Documento adjunto: Checklist_Correcciones_Informe_Lab2.md. El checklist completo se conserva en reference/. No hubo una sesión independiente de generación con Copilot: el script se produjo dentro de la tarea general anterior.

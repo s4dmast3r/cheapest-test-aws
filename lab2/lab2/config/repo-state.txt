@@ -1,0 +1,4 @@
+## lab2-jose
+ M src/datasources/load-seed.yaml
+?? lab2/
+32aeb398c41c1a38b0e606b3cb4e6e628c2f846b aclaracion regla de pareto

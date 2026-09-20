@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1788832232139,51,POST Cheapest,201,Created,POST Request 2-1,text,true,,2116,1135,1,1,http://localhost:3000/logistics/pedidos,49,0,11
+1788832233100,39,POST Cheapest,201,Created,POST Request 2-2,text,true,,2116,1135,1,1,http://localhost:3000/logistics/pedidos,39,0,2
+1788832234098,34,POST Cheapest,201,Created,POST Request 2-3,text,true,,2116,1135,1,1,http://localhost:3000/logistics/pedidos,34,0,2
+1788832235098,37,POST Cheapest,201,Created,POST Request 2-4,text,true,,2116,1135,1,1,http://localhost:3000/logistics/pedidos,37,0,1
+1788832236097,31,POST Cheapest,201,Created,POST Request 2-5,text,true,,2116,1135,1,1,http://localhost:3000/logistics/pedidos,30,0,1

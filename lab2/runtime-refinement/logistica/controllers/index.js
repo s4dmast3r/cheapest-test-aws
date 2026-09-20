@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TenderoController = exports.PromocionController = exports.ProductoController = exports.PedidoController = exports.NotaCreditoController = exports.DisponibilidadZonaController = exports.DespachoController = exports.CatalogoController = exports.CatalogoProductoController = void 0;
+var catalogo_producto_controller_1 = require("./catalogo-producto.controller");
+Object.defineProperty(exports, "CatalogoProductoController", { enumerable: true, get: function () { return catalogo_producto_controller_1.CatalogoProductoController; } });
+var catalogo_controller_1 = require("./catalogo.controller");
+Object.defineProperty(exports, "CatalogoController", { enumerable: true, get: function () { return catalogo_controller_1.CatalogoController; } });
+var despacho_controller_1 = require("./despacho.controller");
+Object.defineProperty(exports, "DespachoController", { enumerable: true, get: function () { return despacho_controller_1.DespachoController; } });
+var disponibilidad_zona_controller_1 = require("./disponibilidad-zona.controller");
+Object.defineProperty(exports, "DisponibilidadZonaController", { enumerable: true, get: function () { return disponibilidad_zona_controller_1.DisponibilidadZonaController; } });
+var nota_credito_controller_1 = require("./nota-credito.controller");
+Object.defineProperty(exports, "NotaCreditoController", { enumerable: true, get: function () { return nota_credito_controller_1.NotaCreditoController; } });
+var pedido_controller_1 = require("./pedido.controller");
+Object.defineProperty(exports, "PedidoController", { enumerable: true, get: function () { return pedido_controller_1.PedidoController; } });
+var producto_controller_1 = require("./producto.controller");
+Object.defineProperty(exports, "ProductoController", { enumerable: true, get: function () { return producto_controller_1.ProductoController; } });
+var promocion_controller_1 = require("./promocion.controller");
+Object.defineProperty(exports, "PromocionController", { enumerable: true, get: function () { return promocion_controller_1.PromocionController; } });
+var tendero_controller_1 = require("./tendero.controller");
+Object.defineProperty(exports, "TenderoController", { enumerable: true, get: function () { return tendero_controller_1.TenderoController; } });
+//# sourceMappingURL=index.js.map

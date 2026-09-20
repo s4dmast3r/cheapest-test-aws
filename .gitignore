@@ -55,3 +55,7 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+lab2/resultados/
+lab2/report/
+lab2/resultados/
+lab2/report/

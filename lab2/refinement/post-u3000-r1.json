@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "POST",
+    "users": 3000,
+    "ramp_up": 30.0,
+    "duration": 60.0,
+    "body": "lab2/config/large_order.json",
+    "base_url": "http://localhost:3002",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "/Users/macbookair/Desktop/Uni/5thSemester/Arquisoft/cheapest-api/lab2/refinement/post-u3000-r1.csv"
+  },
+  "elapsed_s": 96.83858954099924,
+  "measurement_s": 90.0,
+  "peak_virtual_users": 3000,
+  "max_inflight": 3000,
+  "event_loop_lag_p99_ms": 38.51720900092914,
+  "overall": {
+    "requests": 23006,
+    "throughput_rps": 237.57058120161682,
+    "mean_ms": 10271.65050918677,
+    "p95_ms": 15927.554125000825,
+    "p99_ms": 16578.43316599974,
+    "error_pct": 0.0,
+    "status_counts": {
+      "201": 23006
+    }
+  },
+  "steady": {
+    "requests": 14353,
+    "throughput_rps": 239.21666666666667,
+    "mean_ms": 11464.679201356357,
+    "p95_ms": 14880.043708999438,
+    "p99_ms": 15745.031750000635,
+    "error_pct": 0.0,
+    "status_counts": {
+      "201": 14353
+    }
+  }
+}
