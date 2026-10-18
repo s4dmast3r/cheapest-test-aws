@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "POST",
+    "users": 18000,
+    "ramp_up": 200.0,
+    "duration": 60.0,
+    "body": "./lab2/config/large_order.json",
+    "base_url": "Cheapest-alb-831128517.us-east-1.elb.amazonaws.com",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "lab3/resultados/post/post_strong_r5.csv"
+  },
+  "elapsed_s": 260.75086083300005,
+  "measurement_s": 260.0,
+  "peak_virtual_users": 18000,
+  "max_inflight": 1,
+  "event_loop_lag_p99_ms": 259601.464583,
+  "overall": {
+    "requests": 5202560,
+    "throughput_rps": 19952.225597184206,
+    "mean_ms": 0.044788953356711535,
+    "p95_ms": 0.046292000007497336,
+    "p99_ms": 0.0642500000083146,
+    "error_pct": 100.0,
+    "status_counts": {
+      "0": 5202560
+    }
+  },
+  "steady": {
+    "requests": 1170050,
+    "throughput_rps": 19500.833333333332,
+    "mean_ms": 0.045891712135362514,
+    "p95_ms": 0.04837500000576256,
+    "p99_ms": 0.07875000000012733,
+    "error_pct": 100.0,
+    "status_counts": {
+      "0": 1170050
+    }
+  }
+}

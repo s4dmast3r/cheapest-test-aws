@@ -1,0 +1,41 @@
+{
+  "config": {
+    "endpoint": "GET",
+    "users": 1500,
+    "ramp_up": 75.0,
+    "duration": 60.0,
+    "body": null,
+    "base_url": "",
+    "timeout": 30,
+    "tienda": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "zona": "Zona Norte",
+    "output": "lab3/resultados/get/get_high_r1.csv"
+  },
+  "elapsed_s": 135.732493083,
+  "measurement_s": 135.0,
+  "peak_virtual_users": 1500,
+  "max_inflight": 1,
+  "event_loop_lag_p99_ms": 134701.44004199997,
+  "overall": {
+    "requests": 7841593,
+    "throughput_rps": 57772.40822656141,
+    "mean_ms": 0.012331188319705385,
+    "p95_ms": 0.012083999990863958,
+    "p99_ms": 0.014208999999709704,
+    "error_pct": 100.0,
+    "status_counts": {
+      "0": 7841593
+    }
+  },
+  "steady": {
+    "requests": 3407529,
+    "throughput_rps": 56792.15,
+    "mean_ms": 0.012623089155194469,
+    "p95_ms": 0.012166999994178695,
+    "p99_ms": 0.01570800000649797,
+    "error_pct": 100.0,
+    "status_counts": {
+      "0": 3407529
+    }
+  }
+}
